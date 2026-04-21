@@ -1,0 +1,900 @@
+{
+    "menus": [
+        {
+            "id": "menu_main_1d5914b5",
+            "title": {
+                "translations": {
+                    "en": "Main Menu [RND-VJNUAC]"
+                }
+            },
+            "service_availability": [
+                {
+                    "day_of_week": "monday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "tuesday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "wednesday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "thursday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "friday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "saturday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                },
+                {
+                    "day_of_week": "sunday",
+                    "time_periods": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "23:59"
+                        }
+                    ]
+                }
+            ],
+            "category_ids": [
+                "cat_burgers_s1",
+                "cat_sides_s1",
+                "cat_drinks_s1"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "cat_burgers_s1",
+            "title": {
+                "translations": {
+                    "en": "cat_burgers_s1 Title RND-VJNUAC"
+                }
+            },
+            "subtitle": {
+                "translations": {
+                    "en": "cat_burgers_s1 Subtitle RND-VJNUAC"
+                }
+            },
+            "entities": [
+                {
+                    "id": "item_classic_burger_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "item_bbq_burger_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "cat_sides_s1",
+            "title": {
+                "translations": {
+                    "en": "cat_sides_s1 Title RND-VJNUAC"
+                }
+            },
+            "subtitle": {
+                "translations": {
+                    "en": "cat_sides_s1 Subtitle RND-VJNUAC"
+                }
+            },
+            "entities": [
+                {
+                    "id": "item_fries_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "item_onion_rings_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "cat_drinks_s1",
+            "title": {
+                "translations": {
+                    "en": "cat_drinks_s1 Title RND-VJNUAC"
+                }
+            },
+            "subtitle": {
+                "translations": {
+                    "en": "cat_drinks_s1 Subtitle RND-VJNUAC"
+                }
+            },
+            "entities": [
+                {
+                    "id": "item_cola_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "item_milkshake_s1",
+                    "type": "ITEM"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "item_classic_burger_s1",
+            "title": {
+                "translations": {
+                    "en": "item_classic_burger_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_classic_burger_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+            "price_info": {
+                "price": 18500,
+                "overrides": []
+            },
+            "tax_info": {
+                "tax_rate": 8
+            },
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_patty_size_s1",
+                    "mg_extras_s1",
+                    "mg_sauce_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "item_bbq_burger_s1",
+            "title": {
+                "translations": {
+                    "en": "item_bbq_burger_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_bbq_burger_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+            "price_info": {
+                "price": 13600,
+                "overrides": []
+            },
+            "tax_info": [],
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_patty_size_s1",
+                    "mg_extras_s1",
+                    "mg_sauce_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "item_fries_s1",
+            "title": {
+                "translations": {
+                    "en": "item_fries_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_fries_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+            "price_info": {
+                "price": 6300,
+                "overrides": []
+            },
+            "tax_info": [],
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_fry_size_s1",
+                    "mg_dip_sauce_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "item_onion_rings_s1",
+            "title": {
+                "translations": {
+                    "en": "item_onion_rings_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_onion_rings_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1639024471283-03518883512d",
+            "price_info": {
+                "price": 7900,
+                "overrides": []
+            },
+            "tax_info": [],
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_dip_sauce_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "item_cola_s1",
+            "title": {
+                "translations": {
+                    "en": "item_cola_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_cola_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1561758033-d89a9ad46330",
+            "price_info": {
+                "price": 14200,
+                "overrides": []
+            },
+            "tax_info": [],
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_drink_size_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "item_milkshake_s1",
+            "title": {
+                "translations": {
+                    "en": "item_milkshake_s1 RND-VJNUAC"
+                }
+            },
+            "description": {
+                "translations": {
+                    "en": "Updated description for item_milkshake_s1 RND-VJNUAC"
+                }
+            },
+            "image_url": "https://images.unsplash.com/photo-1572490122747-3a3e89006d44",
+            "price_info": {
+                "price": 17500,
+                "overrides": []
+            },
+            "tax_info": [],
+            "modifier_group_ids": {
+                "ids": [
+                    "mg_shake_flavour_s1"
+                ]
+            },
+            "dish_info": {
+                "classifications": {
+                    "ingredients": null,
+                    "additives": null
+                }
+            },
+            "product_info": {
+                "product_traits": null,
+                "countries_of_origin": null
+            },
+            "bundled_items": null
+        },
+        {
+            "id": "mod_single_patty_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_single_patty_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 15900
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_double_patty_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_double_patty_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 11500
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_triple_patty_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_triple_patty_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 6200
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_extra_cheese_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_extra_cheese_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 1100
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_bacon_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_bacon_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 2200
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_avocado_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_avocado_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 5500
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_egg_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_egg_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 13000
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_jalapenos_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_jalapenos_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 8000
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_sauce_house_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_sauce_house_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 5300
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_sauce_bbq_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_sauce_bbq_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 7300
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_sauce_mayo_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_sauce_mayo_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 7100
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_sauce_hot_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_sauce_hot_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 6100
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_fry_regular_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_fry_regular_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 17500
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_fry_large_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_fry_large_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 7200
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_dip_ketchup_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_dip_ketchup_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 5200
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_dip_mayo_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_dip_mayo_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 6800
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_dip_ranch_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_dip_ranch_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 3900
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_dip_sriracha_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_dip_sriracha_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 19600
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_drink_small_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_drink_small_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 1400
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_drink_medium_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_drink_medium_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 15000
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_drink_large_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_drink_large_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 12100
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_shake_vanilla_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_shake_vanilla_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 5500
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_shake_choc_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_shake_choc_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 19400
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_shake_strawberry_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_shake_strawberry_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 7200
+            },
+            "tax_info": []
+        },
+        {
+            "id": "mod_shake_caramel_s1",
+            "title": {
+                "translations": {
+                    "en": "mod_shake_caramel_s1 RND-VJNUAC"
+                }
+            },
+            "price_info": {
+                "price": 14700
+            },
+            "tax_info": []
+        }
+    ],
+    "modifier_groups": [
+        {
+            "id": "mg_patty_size_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_patty_size_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 1,
+                    "max_permitted": 1,
+                    "min_permitted_unique": 1,
+                    "max_permitted_unique": 1
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_single_patty_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_double_patty_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_triple_patty_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_extras_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_extras_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 0,
+                    "max_permitted": 5,
+                    "min_permitted_unique": 0,
+                    "max_permitted_unique": 5
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_extra_cheese_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_bacon_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_avocado_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_egg_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_jalapenos_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_sauce_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_sauce_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 1,
+                    "max_permitted": 2,
+                    "min_permitted_unique": 1,
+                    "max_permitted_unique": 2
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_sauce_house_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_sauce_bbq_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_sauce_mayo_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_sauce_hot_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_fry_size_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_fry_size_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 1,
+                    "max_permitted": 1,
+                    "min_permitted_unique": 1,
+                    "max_permitted_unique": 1
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_fry_regular_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_fry_large_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_dip_sauce_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_dip_sauce_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 0,
+                    "max_permitted": 2,
+                    "min_permitted_unique": 0,
+                    "max_permitted_unique": 2
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_dip_ketchup_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_dip_mayo_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_dip_ranch_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_dip_sriracha_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_drink_size_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_drink_size_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 1,
+                    "max_permitted": 1,
+                    "min_permitted_unique": 1,
+                    "max_permitted_unique": 1
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_drink_small_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_drink_medium_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_drink_large_s1",
+                    "type": "ITEM"
+                }
+            ]
+        },
+        {
+            "id": "mg_shake_flavour_s1",
+            "title": {
+                "translations": {
+                    "en": "mg_shake_flavour_s1 RND-VJNUAC"
+                }
+            },
+            "quantity_info": {
+                "quantity": {
+                    "min_permitted": 1,
+                    "max_permitted": 1,
+                    "min_permitted_unique": 1,
+                    "max_permitted_unique": 1
+                }
+            },
+            "modifier_options": [
+                {
+                    "id": "mod_shake_vanilla_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_shake_choc_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_shake_strawberry_s1",
+                    "type": "ITEM"
+                },
+                {
+                    "id": "mod_shake_caramel_s1",
+                    "type": "ITEM"
+                }
+            ]
+        }
+    ]
+}
