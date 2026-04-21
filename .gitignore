@@ -1,0 +1,13 @@
+# Environment secrets
+.env
+
+# Runtime logs
+*.log
+
+# Local runtime data snapshots
+# Uncomment if you do not want local JSON artifacts in git
+# auth_tokens.json
+# orders.json
+# webhook-events.json
+# webhook-received.log
+# webhook-send.log
